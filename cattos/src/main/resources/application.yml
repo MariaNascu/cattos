@@ -2,8 +2,8 @@
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
-    username: parolista
-    password: parola123
+    username: ${USERNAME}
+    password: ${PASSWORD}
     driver-class-name: org.h2.Driver
 
   jpa:
